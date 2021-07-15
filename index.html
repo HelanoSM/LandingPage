@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input
+      type="checkbox"
+      id="close-menu"
+      class="close-menu"
+      aria-label="Close menu"
+      role="button"
+    />
+
+    <label for="close-menu" class="close-menu-label" title="close menu"></label>
+
+    <aside class="menu white-bg">
+      <div class="main-content">
+        <h1 onclick="getElementById('close-menu').checked=false;">
+          <a href="#home">Logo</a>
+        </h1>
+        <nav>
+          <ul onclick="getElementById('close-menu').checked=false;">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#top3">Top3</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#work">Services</a></li>
+            <li><a href="#pricing">Princing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="divider"></div>
+    <section id="home" class="intro section main-bg">
+      <div class="main-content intro-content">
+        <div class="intro-text">
+          <h2>July brings us CSS and HTML</h2>
+          <p>
+            <strong>Hello World!</strong> To wrap up July, we are proud to
+            annouce a landing page made with CSS and HTML only (I suppose), as a
+            task at the Udemy JS course. This my second landing page, the first
+            one was made for the NLW, an event of the Rocktseat.
+          </p>
+        </div>
+        <div class="intro-img">
+          <img
+            src="assets/img/intro-img.svg"
+            alt="pessoas carregando as logos das linguagens"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="intro" class="section white-bg">
+      <div class="main-content top3-content">
+        <h2>news coverage and some surprises</h2>
+        <p>
+          This landing page was quite the challenge to make since it was made
+          without JS (to be fair, there is two lines of JS code, to close menu
+          after the media queries). So, as one can imagine, it was quite the
+          hurdle to make the page responsive (especialy the table). But here we
+          are, the work it's done, if someone find any error or bug, feel free
+          to contact me on Github. And now I say my goodbyes for now. See you
+          next time!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+          officia dolores dolorem animi eum voluptatibus incidunt, ipsa
+          excepturi atque! Illum ipsam culpa ipsum totam voluptates. Veritatis
+          commodi itaque eaque dolore?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          doloremque similique a. Nobis rerum quis, commodi pariatur veniam
+          alias quae laudantium repudiandae temporibus obcaecati cupiditate sint
+          error sapiente veritatis sit!
+        </p>
+      </div>
+    </section>
+
+    <section id="top3" class="grid-one section main-bg">
+      <div class="main-content grid-one-content">
+        <h2>TOP 3 Services</h2>
+        <p class="grid-transcrition">Ours most popular services.</p>
+        <div class="grid">
+          <article>
+            <h3>First</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur, laudantium debitis neque voluptas, autem, quae vitae
+              asperiores facere distinctio dolor mollitia ipsum officiis. Nam
+              accusamus quasi, error eligendi pariatur aliquid.
+            </p>
+          </article>
+          <article>
+            <h3>Another</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              architecto, sint fuga mollitia cum aut nihil accusantium pariatur!
+              Saepe sunt esse, eos odit illum impedit. Iste tempore eveniet
+              animi aliquam?
+            </p>
+          </article>
+          <article>
+            <h3>Third One</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              architecto, sint fuga mollitia cum aut nihil accusantium pariatur!
+              Saepe sunt esse, eos odit illum impedit. Iste tempore eveniet
+              animi aliquam?
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="white-bg section">
+      <div class="main-content grid-one-content">
+        <h2>Gallery</h2>
+        <p class="grid-transcrition">Uma breve descrição.</p>
+        <div class="grid">
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/360x360?r=1"
+              alt="random image"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/360x360?r=2"
+              alt="random image"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/360x360?r=3"
+              alt="random image"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/360x360?r=4"
+              alt="random image"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/360x360?r=5"
+              alt="random image"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="https://source.unsplash.com/random/360x360?r=6"
+              alt="random image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="grid-one section main-bg">
+      <div class="main-content grid-one-content">
+        <h2>Other services</h2>
+        <p class="grid-transcrition">Take a look at ours other services.</p>
+        <div class="grid">
+          <article>
+            <h3>First</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur, laudantium debitis neque voluptas, autem, quae vitae
+              asperiores facere distinctio dolor mollitia ipsum officiis. Nam
+              accusamus quasi, error eligendi pariatur aliquid.
+            </p>
+          </article>
+          <article>
+            <h3>Another</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              architecto, sint fuga mollitia cum aut nihil accusantium pariatur!
+              Saepe sunt esse, eos odit illum impedit. Iste tempore eveniet
+              animi aliquam?
+            </p>
+          </article>
+          <article>
+            <h3>Third One</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              architecto, sint fuga mollitia cum aut nihil accusantium pariatur!
+              Saepe sunt esse, eos odit illum impedit. Iste tempore eveniet
+              animi aliquam?
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section white-bg">
+      <div class="main-content top3-content">
+        <h2>Princing</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum a ratione
+          maiores ab commodi aperiam iure, obcaecati, ipsa minima modi eaque
+          expedita ullam qui provident, amet at beatae odio incidunt.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
+          culpa magnam sapiente enim obcaecati amet odit id facere eveniet
+          ullam, rem sed molestiae ipsam molestias, dolore, quaerat fuga quis
+          dolor.
+        </p>
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Princing Table
+            </caption>
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+                <th>Title 5</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>TEST</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="intro section contact-bg">
+      <div class="main-content intro-content">
+        <div class="intro-text">
+          <h2>Contact Us!</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, ex,
+            unde exercitationem libero facere eaque delectus dolorum tempora
+            dolore quis, porro fuga modi culpa assumenda asperiores reiciendis
+            sed repellat quo.
+          </p>
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contact me</legend>
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Your name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Your Surname"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your e-mail"
+              />
+            </div>
+
+            <div class="form-group full-width">
+              <label for="massage">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+            <div class="form-group full-width">
+              <button type="submit">Send message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+      <p>
+        Made with pain and suffering (but at least now the table has overflow)
+        <span class="heart">♥</span>. By HSM
+      </p>
+    </footer>
+
+    <a class="back-to-top" href="#home">➣</a>
+
+    <script src="main.js"></script>
+  </body>
+</html>
