@@ -441,7 +441,9 @@ table th {
   }
 }
 
-/*Links do código do professor:
-CodePen - https://codepen.io/luizomf/full/KKNwMeG
-Github - https://github.com/luizomf/landing-page-cursojs
-*/
+@media (max-width: 400px) {
+  h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+}
