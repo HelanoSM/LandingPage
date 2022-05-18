@@ -1,0 +1,5 @@
+# LandingPage
+
+#### Minha primeira landing page, criada em julho de 2021. Um dos projetos de um curso que faço na Udemy (Curso de JavaScript e TypeScript do básico ao avançado, instrutor Luiz Otávio Miranda). Crianda inteiramente com HTML e CSS, mas ainda assim com notável grau de responsivdade, graças ao uso de @media queries. Além disso contém um botão back-to-top completamente funcional criado sem JS. As seções do projeto empregam, a depender do caso, display grid e flex. As imagens da galeria, graças a sua fonte, ganham um efeito aleatório, sendo alteradas toda vez que a página for recarregada.
+
+#### My first landing page, made on July, 2021. One of the projects in a Udemy course that I'm enrolled (JavaScript and TypeScript, from basics to advanced, instructor  Luiz Otávio Miranda). It was made entirely with HTML and CSS, and yet has a notable degree of responsivity, thanks to the use of @media queries. Furthermore, it has a back-to-top button completely functional created without JS. The sections of the project employ display grid and flex, wichever is necessary. The images on the gallery gave a random effect, changing whenever the page is reloaded.
